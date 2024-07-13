@@ -1,0 +1,15 @@
+body{
+    background-image: url("https://imgs.search.brave.com/8MnBGC6IGl5oZrzO3Rk8F7I530Iy96Zj49ktlEFaPMo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wNC53/YWxscGFwZXJiZXR0/ZXIuY29tL3dhbGxw/YXBlci82MDkvMTAx/Ny8xMzEvY3JlYW0t/YmFja2dyb3VuZC1p/Y2UtY3JlYW0td2Fs/bHBhcGVyLXByZXZp/ZXcuanBn");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form-login{
+    background-color: #dcd4d4;
+    border-radius: 20px;
+    padding: 45px;
+    width: 70%;
+}
+.error{
+    color: #86135a;
+}rgb(255, 0, 128)rgb(121, 17, 69)

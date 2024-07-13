@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="../styles/registro.css">
+</head>
+<body>
+  <main>
+    <div class="form1">
+      <!-- <img src="superm/img2.jpeg" alt=""> -->
+      <form action="#" method="post">
+        <h2>
+          Datos personales
+        </h2>
+        <fieldset>
+          <legend class="legend-registrate"> Registro</legend>
+          <div class="form-input">
+            <label for="inputNombre">Nombre y apellido</label>
+            <input type="text" required minlength="3" id="inputNombre" placeholder="Nombre Completo" required
+              name="nombreCompleto">
+          </div>
+          <div class="form-input">
+            <label for="inputEmail">correo electrónico</label>
+            <input type="email" id="inputEmail" placeholder="email" required name="emailCompleto">
+          </div>
+          <div class="form-input">
+            <label for="">Seleccione compra</label>
+            <select name="type-of-user" id="">
+              <option value="user1"> mayorista</option>
+              <option value="user1">minorista</option>
+            </select>
+          </div>
+          <div class="form-input">
+            <label> Acepto recibir mails de ofertas y novedades 
+              <input type="checkbox" class="checkbox">
+            </label>
+          </div>
+        </fieldset>
+        <input class="btn" type="submit">
+      </form>
+    </div>
+  </main>
+</body>
+</html>
